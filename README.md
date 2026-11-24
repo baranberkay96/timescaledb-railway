@@ -1,5 +1,7 @@
 # Deploy and Host TimescaleDB with Railway
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/timescaledb-232-on-postgresql-18?referralCode=20H68q)
+
 TimescaleDB turns PostgreSQL into a time-series database: hypertables partition data by time automatically, native compression shrinks old data, and continuous aggregates keep rollups fresh. This community template runs TimescaleDB 2.32 on PostgreSQL 18 with PgBouncer pooling, TLS for outside connections and daily backups to a Railway Bucket.
 
 ## About Hosting TimescaleDB
