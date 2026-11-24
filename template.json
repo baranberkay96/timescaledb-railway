@@ -203,8 +203,8 @@
           "required": false
         },
         "LISTEN_ADDR": {
-          "defaultValue": "*",
-          "description": "Listen on all IPv4 and IPv6 addresses (Railway's private network can be IPv6-only).",
+          "defaultValue": "0.0.0.0,::",
+          "description": "Listen on IPv4 and IPv6 (Railway's private DNS returns both; some clients try IPv6 first).",
           "required": false
         },
         "LISTEN_PORT": {
